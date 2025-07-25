@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+    margin: 0px;
+    background-color: rgb(196, 140, 179);
+}
+.ToDoList{
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(image.jpg);
+    background-size: cover;
+    height: 600px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    position: relative;
+    left: -10px;
+}
+input:hover{
+    width: 352px;
+}
+button{
+    background-color: rgb(180, 24, 45);
+    width: 50PX;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    top: -1.9px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+    left: 0px;
+}
+button:hover{
+    width: 52px;
+    background-color: black;
+}
+#changeTheme{
+    width: 70px;
+    position: relative;
+    left: 200px;
+    background-color: #B4182D;
+}
+#changeTheme:hover{
+    background-color: black;
+}
+#changeTheme1{
+    width: 70px;
+    position: relative;
+    left: 200px;
+    background-color: #B4182D;
+}
+#changeTheme1:hover{
+    background-color: white;
+    color: black;
+}
+#myDiv{
+    white-space: pre-wrap;
+    font-size: 2rem;
+    font: bold;
+    color: white;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
